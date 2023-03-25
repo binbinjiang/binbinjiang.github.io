@@ -1,0 +1,6 @@
+@article{zheng2023cvt,
+  title={CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment},
+  author={Zheng, Jiangbin and Wang, Yile and Tan, Cheng and Li, Siyuan and Wang, Ge and Xia, Jun and Chen, Yidong and Li, Stan Z},
+  journal={arXiv preprint arXiv:2303.05725},
+  year={2023}
+}

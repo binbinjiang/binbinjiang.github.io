@@ -1,0 +1,10 @@
+@article{wu2020fuzzy,
+  title={Fuzzy SLIC: Fuzzy simple linear iterative clustering},
+  author={Wu, Chong and Zheng, Jiangbin and Feng, Zhenan and Zhang, Houwang and Zhang, Le and Cao, Jiawang and Yan, Hong},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={31},
+  number={6},
+  pages={2114--2124},
+  year={2020},
+  publisher={IEEE}
+}

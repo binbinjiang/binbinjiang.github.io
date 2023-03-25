@@ -1,0 +1,9 @@
+@article{kamal2019technical,
+  title={Technical approaches to Chinese sign language processing: a review},
+  author={Kamal, Suhail Muhammad and Chen, Yidong and Li, Shaozi and Shi, Xiaodong and Zheng, Jiangbin},
+  journal={IEEE Access},
+  volume={7},
+  pages={96926--96935},
+  year={2019},
+  publisher={IEEE}
+}

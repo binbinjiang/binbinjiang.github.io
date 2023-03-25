@@ -1,0 +1,9 @@
+@article{zheng2021enhancing,
+  title={Enhancing Neural Sign Language Translation by highlighting the facial expression information},
+  author={Zheng, Jiangbin and Chen, Yidong and Wu, Chong and Shi, Xiaodong and Kamal, Suhail Muhammad},
+  journal={Neurocomputing},
+  volume={464},
+  pages={462--472},
+  year={2021},
+  publisher={Elsevier}
+}

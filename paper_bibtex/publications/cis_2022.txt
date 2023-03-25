@@ -1,0 +1,10 @@
+@article{wu2022star,
+  title={Star topology convolution for graph representation learning},
+  author={Wu, Chong and Feng, Zhenan and Zheng, Jiangbin and Zhang, Houwang and Cao, Jiawang and Yan, Hong},
+  journal={Complex \& Intelligent Systems},
+  volume={8},
+  number={6},
+  pages={5125--5141},
+  year={2022},
+  publisher={Springer}
+}

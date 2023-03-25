@@ -1,0 +1,7 @@
+@inproceedings{tong2020document,
+  title={A document-level neural machine translation model with dynamic caching guided by theme-rheme information},
+  author={Tong, Yiqi and Zheng, Jiangbin and Zhu, Hongkang and Chen, Yidong and Shi, Xiaodong},
+  booktitle={Proceedings of the 28th International Conference on Computational Linguistics},
+  pages={4385--4395},
+  year={2020}
+}

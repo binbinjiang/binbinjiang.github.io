@@ -1,0 +1,6 @@
+@article{li2022efficient,
+  title={Efficient multi-order gated aggregation network},
+  author={Li, Siyuan and Wang, Zedong and Liu, Zicheng and Tan, Cheng and Lin, Haitao and Wu, Di and Chen, Zhiyuan and Zheng, Jiangbin and Li, Stan Z},
+  journal={arXiv preprint arXiv:2211.03295},
+  year={2022}
+}

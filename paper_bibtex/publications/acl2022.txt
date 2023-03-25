@@ -1,0 +1,6 @@
+@article{zheng2022using,
+  title={Using Context-to-Vector with Graph Retrofitting to Improve Word Embeddings},
+  author={Zheng, Jiangbin and Wang, Yile and Wang, Ge and Xia, Jun and Huang, Yufei and Zhao, Guojiang and Zhang, Yue and Li, Stan Z},
+  journal={arXiv preprint arXiv:2210.16848},
+  year={2022}
+}

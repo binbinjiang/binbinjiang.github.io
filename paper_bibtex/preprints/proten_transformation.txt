@@ -1,0 +1,6 @@
+@article{zheng2023lightweight,
+  title={Lightweight Contrastive Protein Structure-Sequence Transformation},
+  author={Zheng, Jiangbin and Wang, Ge and Huang, Yufei and Hu, Bozhen and Li, Siyuan and Tan, Cheng and Fan, Xinwen and Li, Stan Z},
+  journal={arXiv preprint arXiv:2303.11783},
+  year={2023}
+}

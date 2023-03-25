@@ -1,0 +1,8 @@
+@inproceedings{tong2021generating,
+  title={Generating Diverse Back-Translations via Constraint Random Decoding},
+  author={Tong, Yiqi and Chen, Yidong and Zhang, Guocheng and Zheng, Jiangbin and Zhu, Hongkang and Shi, Xiaodong},
+  booktitle={Machine Translation: 17th China Conference, CCMT 2021, Xining, China, October 8--10, 2021, Revised Selected Papers 17},
+  pages={92--104},
+  year={2021},
+  organization={Springer}
+}

@@ -1,0 +1,8 @@
+@article{zheng2020improved,
+  title={An improved sign language translation model with explainable adaptations for processing long sign sentences},
+  author={Zheng, Jiangbin and Zhao, Zheng and Chen, Min and Chen, Jing and Wu, Chong and Chen, Yidong and Shi, Xiaodong and Tong, Yiqi},
+  journal={Computational Intelligence and Neuroscience},
+  volume={2020},
+  year={2020},
+  publisher={Hindawi}
+}

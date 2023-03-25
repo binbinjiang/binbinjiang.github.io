@@ -1,0 +1,6 @@
+@article{zheng2022leveraging,
+  title={Leveraging Graph-based Cross-modal Information Fusion for Neural Sign Language Translation},
+  author={Zheng, Jiangbin and Li, Siyuan and Tan, Cheng and Wu, Chong and Chen, Yidong and Li, Stan Z},
+  journal={arXiv preprint arXiv:2211.00526},
+  year={2022}
+}
