@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="./configs/style/jemdoc.css" type="text/css">
 <link href="./img/icon.jpg" rel="icon" type="image/png">
 <style type="text/css"></style>
+<script src="./configs/js/jquery.min.js"></script>
 
 <title>Jiangbin Zheng's Homepage</title>
 
@@ -21,7 +22,20 @@
     padding-bottom: 20px;
   }
 
+  #wechat_flip:hover{
+    cursor:pointer
+  }
+
 </style>
+
+<script> 
+  $(document).ready(function(){
+    $("#wechat_flip").click(function(){
+      $("#panel").slideToggle("slow");
+    });
+  });
+</script>
+
 
 </head>
 
@@ -42,19 +56,27 @@
       <b><font face="Times New Roman" size="6" color="#07689C">Jiangbin Zheng</font> </b>
       <br><br>
       <p> Ph.D candidate, <a href="https://www.zju.edu.cn/" target="_blank">Zhejiang University (ZJU)</a> & <a href="https://www.westlake.edu.cn/" target="_blank">Westlake University (WLU)</a> , China </p>
-	  <p> Location: Hangzhou (City), Zhejiang (Province), China </p>
-	  <p> English Level: IELTS, CET-6 </p>
-	  <!-- <p> Tel./WeChat/Telegram/WhatsApp: (+86) </p> -->
-    <p> Email: zhengjiangbin(at)westlake.edu.cn  / zhengjiangbin(at)zju.edu.cn</p>
-    <p> Hobbies: Photography, Poetry Writing, Software/Web/Graphic Design</p>
-    <p>
-      <a href="https://scholar.google.com/citations?user=egz8bGQAAAAJ&hl=en" target="_blank">[Google Scholar]</a> 
-      <a href="https://github.com/binbinjiang" target="_blank">[GitHub]</a>
-      <!-- <a href="https://www.zhihu.com/people/yan-yu-gui-ke" target="_blank">[Zhihu]</a> -->
-      <!-- <a href="#" target="_blank">[Twitter]</a> -->
-    </p>
-    
+	  
+      <p> Location: Hangzhou (City), Zhejiang (Province), China </p>
+      <p> English Level: IELTS, CET-6 </p>
+      <!-- <p> Tel./WeChat/Telegram/WhatsApp: (+86) </p> -->
+      <p> Email: zhengjiangbin(at)westlake.edu.cn  / zhengjiangbin(at)zju.edu.cn</p>
+      <p> Hobbies: Photography, Poetry Writing, Software/Web/Graphic Design</p>
+      <p>
+        <a href="https://scholar.google.com/citations?user=egz8bGQAAAAJ&hl=en" target="_blank">[Google Scholar]</a> 
+        <a href="https://github.com/binbinjiang" target="_blank">[GitHub]</a>
+        <a href="https://www.zhihu.com/people/yan-yu-gui-ke" target="_blank">[Zhihu]</a>
+        <!-- <a href="#" target="_blank">[Twitter]</a> -->
+      </p>
+      <p>
+        <a id="wechat_flip"> WeChat Official Account (微信公众号): <b>我在西湖大学搞AI</b></a>
+      </p>
+      <p>
+          <img id="panel" height="120" style="padding: 0pt 10pt 0pt 100pt; float: left; display: none;" src="./img/wechat_qrcode.jpg">
+      </p>
+
     </td>
+
   </tr>
 </tbody>
 </table>
