@@ -21,27 +21,11 @@
   .paper_item{
     padding-bottom: 20px;
   }
-
-  #wechat_flip:hover{
-    cursor:pointer
-  }
-
   .award_div li {
     font-size: 18px;
     margin-bottom: 10px;
   }
- 
-
 </style>
-
-<script> 
-  $(document).ready(function(){
-    $("#wechat_flip").click(function(){
-      $("#panel").slideToggle("slow");
-    });
-  });
-</script>
-
 
 </head>
 
@@ -72,9 +56,6 @@
         <!-- <a href="https://www.zhihu.com/people/yan-yu-gui-ke" target="_blank">[Zhihu]</a> -->
         <!-- <a href="#" target="_blank">[Twitter]</a> -->
       </p>
-      <p>
-          <img id="panel" height="120" style="padding: 0pt 10pt 0pt 100pt; float: left; display: none;" src="./img/wechat_qrcode.jpg">
-      </p>
 
     </td>
 
@@ -98,7 +79,7 @@
 
 <!-- ================ Biography ==================-->
 <h1 id="biography">Biography <a href="#home" style="color:#666; font-size:15px;">[Top]</a></h1>
-<p style="text-align:justify;">
+<p style="text-align:justify;font-size:18px;">
   Jiangbin Zheng is pursuing his Ph.D at <a href="https://github.com/Westlake-AI/" target="_blank">AI Lab, Westlake University</a>, China, under the supervision of Chair Prof. <b><a href="https://scholar.google.com/citations?user=Y-nyLGIAAAAJ&hl=en&oi=ao" target="_blank">Stan Z. Li (IEEE Fellow, IAPR Fellow, Chief Scientist of BioMap)</a></b>. He is currently focusing on AI for Life Science (e.g., AI + protein design, AI + enzyme engineering). Previously he focused on Natural Language Processing (NLP), Computer Vision (CV), Multi-modality research (e.g., AI for Sign Language Translation) at NLP Lab, Xiamen University, China.
   <br><br>
   <b>RESEARCH INTERESTS:</b> AI for Life Science, Multi-Modality, NLP, CV.
@@ -106,11 +87,7 @@
 
 <!-- ================ News ==================-->
 <!-- <h1 id="news">Latest News (2019-present) &nbsp;<a href="#home" style="color:#666; font-size:15px;">[Top]</a></h1>
-
 <ul>
-
-    <li><b>2024.03: </b>One paper on <i>protein inverse folding</i> was accepted to <b>ICME 2024</b></li>
-
     <li><b>2023.02: </b>One paper on <i>sign language recognition</i> was accepted to <b>CVPR 2023 (<b>Highlight</b>)</b><a href="https://zhuanlan.zhihu.com/p/638671985" target="_blank">[Report 1]</a></li>
 
     <li><b>2022.12:</b> Appointed as the <b>implementation leader</b> of a major national science and technology innovation project (2022-2027)</li>
@@ -126,8 +103,6 @@
     <a href="https://cogsci.xmu.edu.cn/info/1046/1633.htm" target="_blank">[Report 2]</a>
     <a href="http://nlp.xmu.edu.cn:8085/2020/12/14/%e7%83%ad%e7%83%88%e7%a5%9d%e8%b4%ba%e6%88%91%e7%b3%bb%e9%99%88%e6%af%85%e4%b8%9c%e8%80%81%e5%b8%88%e6%8c%87%e5%af%bc%e7%9a%84%e4%bd%9c%e5%93%81%e6%96%a9%e8%8e%b7%e5%8d%8e%e4%b8%ba%e6%9d%af/" target="_blank">[Report 3]</a>
     </li>
-
-    <li><b>2020.12: </b>One paper on <i>document-level translation</i> was presented on <b>COLING 2020</b></li>
     
     <li><b>2019.07:</b> <b>Champion & Grand Prize</b> of <i>Xiamen University Artificial Intelligence Innovation Competition</i> (The Grand Prize has been vacant for many years).<a href="http://nlp.xmu.edu.cn:8085/2019/07/15/%E7%A5%9D%E8%B4%BA%E5%AE%9E%E9%AA%8C%E5%AE%A4%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86-%E7%A5%9E%E7%BB%8F%E6%89%8B%E8%AF%AD%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E5%9B%A2" target="_blank">[Report]</a></li>
 
@@ -138,10 +113,11 @@
 <!-- ================ Projects ==================-->
 <h1 id="projects">Selected Projects &nbsp;<a href="#home" style="color:#666666; font-size:15px;">[Top]</a></h1>
 
-<div style="padding-left: 15px;">
-  <li><b><i>National</i></b> Science and Technology Innovation "2030 New Generation Artificial Intelligence", <b><i>Major Project</i></b>, 2022-2027, <i>Implementation Leader</i>, Westlake University, China </li>
-  <li><b><i>National</i></b> Science and Technology Innovation, <b><i>Major Project</i></b>, 2022-2023, <i>Implementation Leader</i></li>
-</div>
+<ul style="padding-left: 15px; font-size:18px">
+  <li><b><i>National</i></b> Science and Technology Innovation - "2030 New Generation Artificial Intelligence", <b><i>Major Project</i></b>, 2022-2027 &rarr; <i>Implementation Leader</i>, Westlake University, China </li>
+  
+  <li><b><i>National</i></b> Science and Technology Innovation, <b><i>Major Project</i></b>, 2022-2023 &rarr; <i>Implementation Leader</i>, Westlake University, China </li>
+</ul>
 
 
 <!-- ================ Publications ==================-->
@@ -164,7 +140,7 @@
       <b class="paper_title"> DapPep: Domain Adaptive Peptide-agnostic Learning for Universal T-cell Receptor-antigen Binding Affinity Prediction </b> [C] <br>
       <b>Jiangbin Zheng</b>, Qianhui Xu, Ruichen Xia, Stan Z. Li* <br>
       <i>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</i> <br>
-      [<a href="#" target="_blank">Paper</a>] [<a href="#" target="_blank">BibTex</a>]
+      [<a href="https://arxiv.org/pdf/2411.17798" target="_blank">Paper</a>] [<a href="#" target="_blank">BibTex</a>]
     </td>
   </tr>
 
@@ -174,7 +150,7 @@
       <b class="paper_title"> Pan-protein Design Learning Enables Task-adaptive Generalization for Low-resource Enzyme Design </b> [C] <br>
       <b>Jiangbin Zheng</b>, Ge Wang, Han Zhang, Stan Z. Li* <br>
       <i> IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</i> <br>
-      [<a href="#" target="_blank">Paper</a>] [<a href="#" target="_blank">BibTex</a>]
+      [<a href="https://arxiv.org/pdf/2411.17795" target="_blank">Paper</a>] [<a href="#" target="_blank">BibTex</a>]
     </td>
   </tr>
 
@@ -196,7 +172,7 @@
 	    <b>Jiangbin Zheng</b>, Stan Z. Li* <br>
       <i>IEEE Conference on Multimedia Expo 2024 (ICME 2024) </i> <br>
       <b style="color: red;"> (Oral) </b> <br>
-      [<a href="#" target="_blank">Paper</a>] [<a href="#" target="_blank">Code</a>] [<a href="#" target="_blank">BibTex</a>]
+      [<a href="https://ieeexplore.ieee.org/abstract/document/10687400" target="_blank">Paper</a>] [<a href="#" target="_blank">Code</a>] [<a href="#" target="_blank">BibTex</a>]
     </td>
   </tr>
 
@@ -298,7 +274,7 @@
     <td class="paper_item">
       <b class="paper_title"> EasyEvo: Lightweight Protein Landscape Extrapolation with Progressive Evolutionary Encoding and Implicit Homology Aggregation</b> <br>
       <b>Jiangbin Zheng</b>, et. al., Stan Z. Li <br>
-      <i>Submitted to IEEE Transactions on Knowledge and Data Engineering (TKDE) </i> <br>
+      <i>Under-review in IEEE Transactions on Knowledge and Data Engineering (TKDE) </i> <br>
       [<a href="#" target="_blank">Paper</a>] [<a href="" target="_blank">BibTex</a>]
     </td>
   </tr>
@@ -478,15 +454,15 @@
 <ul>
   <li style="margin-bottom: 10px;"> <b><font size="4">Awesome AI Sign Language Papers</font></b> 
     [<a href="https://github.com/binbinjiang/SL_Papers" target="_blank">Github</a>] <br>
-    If you are new or interested in AI sign language field, we highly recommend you browse this repository. We have collected papers on AI Sign Language (SL) comprehensively and categorized them according to different criteria (by time, type of research, institution, etc.).
+    <p>If you are new or interested in AI sign language field, we highly recommend you browse this repository. We have collected papers on AI Sign Language (SL) comprehensively and categorized them according to different criteria (by time, type of research, institution, etc.).</p>
   </li>
   <li style="margin-bottom: 10px;"><b><font size="4">CVT-SLR</font></b> 
     [<a href="https://github.com/binbinjiang/CVT-SLR" target="_blank">Github</a>] <br>
-    Official code of the CVPR 2023 paper (Highlight presentation) <i>CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment</i>
+    <p>Official code of the CVPR 2023 paper (Highlight presentation) <i>CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment</i></p>
   </li>
   <li style="margin-bottom: 10px;"><b><font size="4">Context2Vector</font></b> 
     [<a href="https://github.com/binbinjiang/Context2Vector" target="_blank">Github</a>] <br>
-    Official code of the ACL 2022 paper <i>Using Context-to-Vector with Graph Retrofitting to Improve Word Embeddings</i>
+    <p>Official code of the ACL 2022 paper <i>Using Context-to-Vector with Graph Retrofitting to Improve Word Embeddings</i></p>
   </li>
 </ul>
 
@@ -495,35 +471,46 @@
 <h1 id="awards">Selected Awards &nbsp;<a href="#home" style="color:#666666; font-size:20px;">[Top]</a></h1>
     
 <ul class="award_div" style="padding-left: 20px;">
-  <b><font size="4">Selected Honor Awards</font></b>
+  <b><font size="5">Selected Honor Awards</font></b>
   <li>Westlake Dean's Award (西湖大学院长奖章·学院最高荣誉奖项), 2024</li>
-  <li>National Scholarship of Zhejiang University(浙江大学·博士研究生国家奖学金), 2024</li>
-  <li>Excellent Graduate Student of Zhejiang University(浙江大学·五好研究生), 2024</li>
+  <li>National Scholarship of Zhejiang University (浙江大学·博士研究生国家奖学金), 2024</li>
+  <li>Excellent Graduate Student of Zhejiang University (浙江大学·五好研究生), 2024</li>
   <li>Innovation Award of Westlake University (西湖大学·学习创新奖), 2024</li>
-  <li>Outstanding Graduate (Master's degree) <i>(Only 3 places in the department)</i>, 2021</li>
+  <li>Outstanding Graduate (Master's degree) <i>(Top 3 places in the department)</i>, 2021</li>
   <li>Excellent Merit Student <i>(The only one in the department)</i>, 2020</li>
   <li>Merit Student, 2019</li>
   <li>Outstanding Undergraduate (Bachelor's degree), 2018</li>
-  <li>Top Ten Youth Award<i> (The only one in the college)</i>, 2018</li>
-  <li>Provincial Merit Student <i>(The only one in the college)</i>, 2017</li>
+  <li>Top Ten Youth Award <i> (The only one in the college)</i>, 2018</li>
+  <li>Provincial Merit Student (省级三好学生) <i>(The only one in the college)</i>, 2017</li>
   <li>Excellent Student Cadre, 2017</li>
-  <li>Merit Student <i>(3 consecutive times)</i>, 2015-2017</li>
-  <li>Provincial Advanced Individual <i>(The only one in the college)</i>, 2016</li>
+  <li>Merit Student <i>(3 consecutive times)</i>, 2015 & 2016 & 2017</li>
+  <li>Young Leaders Award <i>(Highest Level Alumni Scholarship)</i>, 2016</li>
+  <li>Provincial Advanced Individual (省级先进个人) <i>(The only one in the college)</i>, 2016</li>
   <li>Excellent League Member, 2016</li>
 </ul>
 <br>
 
 <ul class="award_div" style="padding-left: 20px;">
-  <b><font size="4">Selected Competition Awards</font></b>
-  <li> CAMEO (Continuous Automated Model EvaluatiOn), the world's leading protein structure prediction competition, 2022</i>  <br> <b><i>The Global 1st Place for three consecutive months</i></b> </li>
-  <li> CASP15 (15th Community Wide Experiment on the Critical Assessment of Techniques for Protein Structure Prediction), the world's leading protein structure prediction competition, 2022</i> <br> <b><i>The Global Top 25 Place</i></b> </li>
-  <li> The China Graduate AI Innovation Competition, 2020 <br> <b><i>National 2nd Prize, ranking 11~25/1122 overall and top 3~5 in Technology Innovation Track</i></b> </li>
-  <li> Xiamen University Artificial Intelligence Innovation Competition, 2019 <br> <b><i>Champion & Grand Prize</i></b> </li>
-  <li> The Intelligent Design Competition for Chinese College Students, 2017 <br> <b><i>National 1st Prize & Huawei Special Award</i></b></li>
-  <li> MathorCup Mathematical Modeling Challenge for College Students, 2017 <br> <b><i>National Bronze Award</i></b></li>
-  <li> China University Student Computer Design Competition, 2017 <br> <b><i>National 2nd Prize (2 awards in total)</i></b> </li>
-  <li> The Creative Youth (Challenge Cup): China College Students Entrepreneurship Competition, 2016 <br><b><i>National Bronze Award</i></b> </li>
-  <li> The China Internet+ College Students Innovation and Entrepreneurship Competition, 2016 <br> <b><i>National Bronze Award</i></b> </li> 
+  <b><font size="5">Selected Competition Awards</font></b>
+  <li> CAMEO (Continuous Automated Model EvaluatiOn) - The world's leading protein structure prediction competition, 2022</i>  <br> <b style="font-size:17px"><i>The Global 1st Place for three consecutive months</i></b> </li>
+  
+  <li> CASP15 (15th Community Wide Experiment on the Critical Assessment of Techniques for Protein Structure Prediction) - The world's leading protein structure prediction competition, 2022</i> <br> <b style="font-size:17px"><i>The Global Top 25 Place</i></b> </li>
+  
+  <li> The China Graduate AI Innovation Competition (中国研究生人工智能创新大赛), 2020 <br> <b style="font-size:17px"><i>National 2nd Prize, ranking 11~25/1122 overall and top 3~5 in Technology Innovation Track</i></b> </li>
+  
+  <li> Xiamen University Artificial Intelligence Innovation Competition, 2019 <br> <b style="font-size:17px"><i>Champion & Grand Prize (The award was previously vacant for several years)</i></b> </li>
+  
+  <li> The Intelligent Design Competition for Chinese College Students (“华为杯”中国大学生智能设计竞赛), 2017 <br> <b style="font-size:17px"><i>National 1st Prize & Huawei Special Award</i></b></li>
+  
+  <li> MathorCup Mathematical Modeling Challenge for College Students (MathorCup大学生数学建模挑战赛), 2017 <br> <b style="font-size:17px"><i>National Bronze Award</i></b></li>
+  
+  <li> China University Student Computer Design Competition (中国大学生计算机设计大赛), 2017 <br> <b style="font-size:17px"><i>National 2nd Prize (Software Development Track)</i></b> </li>
+  
+  <li> China University Student Computer Design Competition (中国大学生计算机设计大赛), 2017 <br> <b style="font-size:17px"><i>National 2nd Prize (Game Development Track)</i></b> </li>
+  
+  <li> The Creative Youth (Challenge Cup): China College Students Entrepreneurship Competition (挑战杯:“创青春”中国大学生创业大赛), 2016 <br><b style="font-size:17px"><i>National Bronze Award</i></b> </li>
+  
+  <li> The China Internet+ College Students Innovation and Entrepreneurship Competition (中国“互联网+”大学生创新创业大赛), 2016 <br> <b style="font-size:17px"><i>National Bronze Award</i></b> </li> 
 </ul>
  
 <!-- ================ Academic Services ==================-->
@@ -536,7 +523,7 @@
 
 <ul style="padding-left: 15px;">
   <b><font size="4">Program Committee Member | Reviewer</font></b>
-  <li>AAAI, NeurIPS, Chinese Journal of Computers, ECML-PKDD, Pattern Recognition </li>
+  <li>AAAI, NeurIPS, ECML-PKDD, Chinese Journal of Computers, Pattern Recognition, and etc. </li>
   <li>Grant Proposal for The National Science Center, Poland</li>
 </ul>
 
