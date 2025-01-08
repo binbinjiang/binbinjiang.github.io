@@ -16,9 +16,7 @@ function submitPassword() {
     }
 
     $.post(url_type, {password: password},function(data){ 
-        console.log(data.success)
-        console.log(data.name)
-        console.log(data.note)
+        console.log(data.success) 
         
         if (data.success) {
             loadContent(data);
@@ -30,7 +28,7 @@ function submitPassword() {
 
 function loadContent(input) {
     const url_type = Server+"/get_dynamic_content";
-    $.post(url_type, {phone: input.phone}, function(data){
+    $.post(url_type, {phone: input.invite_code}, function(data){
         document.getElementById('dynamic-content').style.display = "block";
         document.getElementById('dynamic-content').innerHTML = data;
         document.getElementById('password-container').hidden = true;
