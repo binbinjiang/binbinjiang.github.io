@@ -1,4 +1,5 @@
-const Server = "http://118.25.100.9:5226";
+// const Server = "http://118.25.100.9:5226";
+const Server = "https://jiangbinzheng.cn:5226";
 
 function getVisitInfo() {
     const url_type = Server+"/getVisitInfo";
